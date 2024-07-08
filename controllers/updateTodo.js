@@ -11,7 +11,7 @@ exports.updateTodo = async (req, res) => {
       { new: true }
     );
 
-    res.cookie("neww",todo).status(200).json({
+    res.cookie("neww", todo).status(200).json({
       success: true,
       data: todo,
       message: `todo data updated in the DB`,

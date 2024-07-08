@@ -29,7 +29,7 @@ const dbConnect = async () => {
 
     console.log("DB - Connect -> Successfull");
   } catch (error) {
-    console.log("DB - connect -> Error");
+    console.log("DB - Connect -> Error");
     console.log(error.message);
 
     process.exit(1);
